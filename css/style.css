@@ -1,0 +1,45 @@
+body {
+  font-family: Roboto;
+  background-color: #ffffff;
+}
+
+/* header section*/
+
+.webstudio-button {
+  font-size: 26px;
+  line-height: auto;
+}
+.nav-1 {
+  font-size: 14px;
+  line-height: auto;
+  color: #2196f3;
+}
+
+.mail-section {
+  color: #2196f3;
+}
+
+.main-body {
+  font-size: 26;
+  display: flex;
+  width: 600;
+  height: 500;
+  background: #ffffff;
+  margin: 40 auto;
+}
+
+/* main section */
+
+.main-contanier {
+  width: 1600;
+  height: 600;
+  top: 80;
+  background: #808296;
+}
+
+/* footer info*/
+.info {
+  width: 1600;
+  height: 252;
+  background: #808296;
+}
