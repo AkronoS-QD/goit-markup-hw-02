@@ -1,22 +1,66 @@
-body {
-  font-family: Roboto;
-  background-color: #ffffff;
+/* цвет фона #E5E5E5 */
+/* вторичный цвет фона #F5F4FA */
+/* цвет основного текста  #757575*/
+/* вторичный цвет текста  #212121* , для лого цвет #000000/
+/* белый цвет #FFFFFF */
+/* акцент #2196F3 */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
 }
 
-/* header section*/
+body {
+  background-color: #e5e5e5;
+  font-family: Roboto;
+
+  color: #757575;
+}
+
+ul {
+  list-style: none;
+}
+
+/* header */
+.logo {
+  color: #000000;
+}
+.logo-item {
+  color: var(--accent-color);
+}
 
 .webstudio-button {
   font-size: 26px;
   line-height: auto;
 }
-.nav-1 {
-  font-size: 14px;
-  line-height: auto;
-  color: #2196f3;
+
+/* site-nav */
+.site-nav {
+  color: var(--title-text-color);
 }
 
+.site-nav:hover,
+.site-nav:focus {
+  color: var(--accent-color);
+}
+
+/* hero */
+.hero-title {
+  color: #ffffff;
+}
+
+/* section 1*/
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* section 2*/
+
+/* section 3*/
+
 .mail-section {
-  color: #2196f3;
+  color: #76b16f;
 }
 
 .main-body {
