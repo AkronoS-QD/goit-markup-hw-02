@@ -1,0 +1,11 @@
+"editor.tokenColorCustomizations": {
+		"textMateRules": [
+			{
+				"scope": ["storage.type"],
+				"settings": {
+					"foreground": "#cc66ff",
+					"fontStyle": "bold"
+				}
+			}
+		]		
+	}

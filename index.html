@@ -7,8 +7,10 @@
     <title>Web Studio (version 2.1)</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
@@ -19,29 +21,31 @@
       <a href="./index.html" class="logo"
         ><span class="logo-item">Web</span>Studio</a
       >
-      <nav class="site-nav">
+      <nav class="site-nav list">
         <ul>
-          <li class="nav-1"><a href="">Студия</a></li>
-          <li class="nav-2"><a href="/portfolio.html">Портфолио</a></li>
-          <li class="nav-3"><a href="">Контакты</a></li>
+          <li><a class="link current" href="">Студия</a></li>
+          <li><a class="link" href="/portfolio.html">Портфолио</a></li>
+          <li><a class="link" href="">Контакты</a></li>
         </ul>
       </nav>
-      <ul>
+      <ul class="contact">
         <!-- Ссылка на адрес электронной почты  -->
         <li>
-          <a class="mail-section" href="malito:info@devstudio.com"
+          <a class="mail-link" href="malito:info@devstudio.com"
             >info@devstudio.com</a
           >
         </li>
         <!-- Ссылка на телефонный номер -->
-        <li><a href="tel:+380961111111">+38 099 111 11 11</a></li>
+        <li>
+          <a class="tel-link" href="tel:+380961111111">+38 099 111 11 11</a>
+        </li>
       </ul>
     </header>
     <!-- герой-->
     <main>
       <section class="hero">
         <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-        <button type="button">Заказать услугу</button>
+        <a href="" class="button primary">Заказать услугу</a>
       </section>
       <!-- main goal -->
       <section class="section">
@@ -162,14 +166,23 @@
     </main>
     <!-- Page footer-->
     <footer class="info">
-      <a href="index.html">WebStudio</a>
+      <a href="./index.html" class="logo"
+        ><span class="logo-item">Web</span
+        ><span class="logo-footer">Studio</span></a
+      >
       <!-- adress-->
-      <address>г. Киев, пр-т Леси Украинки, 26</address>
-      <ul>
+      <address class="address">г. Киев, пр-т Леси Украинки, 26</address>
+      <ul class="contact">
         <!-- Ссылка на адрес электронной почты  -->
-        <li><a href="malito:info@devstudio.com">info@devstudio.com</a></li>
+        <li>
+          <a class="mail-link" href="malito:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
         <!-- Ссылка на телефонный номер -->
-        <li><a href="tel:+380961111111">+38 099 111 11 11</a></li>
+        <li>
+          <a class="tel-link" href="tel:+380961111111">+38 099 111 11 11</a>
+        </li>
       </ul>
     </footer>
   </body>
