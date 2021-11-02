@@ -2,28 +2,33 @@
 <html lang="ru">
   <head>
     <!-- head info -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css"
+      integrity="sha512-Y0MM+V6ymRKN2zStTqzQ227DWhhp4Mzdo6gnlRnuaNCbc+YN/ZH0sBCLTM4M0oSy9c9VKiCvd4Jk44aCLrNS5Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <meta charset="utf-8" />
     <meta name="description" content="WebStudio 2" />
     <title>Web Studio (version 2.1)</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <!-- header -->
-    <header>
+    <header class="header">
       <a href="./index.html" class="logo"
         ><span class="logo-item">Web</span>Studio</a
       >
       <nav class="site-nav list">
         <ul>
-          <li><a class="link current" href="">Студия</a></li>
+          <li><a class="link current" href="./index.html">Студия</a></li>
           <li><a class="link" href="/portfolio.html">Портфолио</a></li>
           <li><a class="link" href="">Контакты</a></li>
         </ul>
@@ -45,7 +50,7 @@
     <main>
       <section class="hero">
         <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-        <a href="" class="button primary">Заказать услугу</a>
+        <a href="" class="button-primary">Заказать услугу</a>
       </section>
       <!-- main goal -->
       <section class="section">
@@ -80,8 +85,8 @@
           </li>
         </ul>
       </section>
-      <!-- presintation-->
-      <section class="section">
+      <!-- presentation-->
+      <section class="section presentation-section">
         <h2 class="section-title">Чем мы занимаемся</h2>
         <ul>
           <li>
@@ -113,7 +118,7 @@
           </li>
         </ul>
       </section>
-      <section class="section">
+      <section class="section our-team">
         <h2 class="section-title">Наша команда</h2>
         <!-- our team-->
         <ul>
