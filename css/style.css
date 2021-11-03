@@ -153,13 +153,31 @@ ul {
   letter-spacing: 0.03em;
 }
 
+.image-card,
+.list-team {
+  display: flex;
+}
+
 /* main portfolio */
 .filtr-our-product {
   text-decoration: none;
 }
 
 /* кнопки portfolio */
+.btn-filtr {
+  display: flex;
+}
+.btn-filtr .btn.current {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
 .btn-filtr .btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
   color: #212121;
 }
 .btn-filtr .btn:hover,
